@@ -1,0 +1,24 @@
+#container {
+    position: relative;
+    top: 30px;
+    height: 960px;
+    width: 960px;
+    outline: 2px solid red;
+    margin: auto;
+    padding: 0;
+    border: 20px black;
+    display: block;
+    background-color: #9c27b0;
+}
+
+.cell {
+    outline: 2px solid black;
+    /* margin: 0; */
+    /* padding: 0; */
+    display: inline-block;
+    border: 10px black;
+    width: 60px;
+    height: 60px;
+    /* color: pink; */
+    background-color: wheat;
+}
