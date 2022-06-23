@@ -1,61 +1,73 @@
-body{
-    -webkit-appearance: none;
-    padding: 10px;
-    /* display: flex; */
-    background-color: #f5dbdb;
+body {
+  -webkit-appearance: none;
+  padding: 10px;
+  background-color: #f5dbdb;
 }
 
-h1{
-    text-align: center;
-    font-size: xxx-large;
+.main {
+  display: flex;
+}
+
+#head {
+  margin-top: 36vh;
+  margin-right: 24vh;
+  margin-left: 16vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+  margin-top: 1vh;
+  margin-bottom: -1vh;
+  font-family: cursive;
+}
+
+h3 {
+  font-family: cursive;
 }
 #container {
-    -webkit-appearance: none;
-    position: relative;
-    /* top: 30px; */
-    height: 960px;
-    width: 960px;
-    outline: 5px solid #aba4a4;
-    margin: auto;
-    /* padding: 50px; */
-    /* border: 20px black; */
-    display: block;
-    /* background-color: #9c27b0; */
-    /* bottom: 40px; */
-    font-size: 0;
-    border: none;
+  -webkit-appearance: none;
+  position: relative;
+  height: 600px;
+  width: 600px;
+  outline: 5px solid #aba4a4;
+  margin: auto;
+  display: block;
+  font-size: 0;
+  border: none;
 }
 
 .cell {
-    outline: 1px solid black;
-    /* margin: 0; */
-    /* padding: 0; */
-    display: inline-block;
-    /* border: 10px black; */
-    width: 60px;
-    height: 60px;
-    /* color: pink; */
-    /* background-color: wheat; */
-    border: none;
+  outline: 1px solid black;
+  /* margin: 0; */
+  /* padding: 0; */
+  display: inline-block;
+  /* border: 10px black; */
+  width: 60px;
+  height: 60px;
+  /* color: pink; */
+  /* background-color: wheat; */
+  border: none;
 }
 
-#buttons{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0px 40px;
+#buttons {
+  /* display: flex;
+  justify-content: center;
+  margin: 0 0px 12px;
+  flex-wrap: nowrap; */
+
+  margin-bottom: 2vh;
 }
-.button{
-    background-color: #bb1597;
-    border: 2px solid #210425;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    text-decoration: blueviolet;
-    display: inline-block;
-    font-size: x-large;
-    border-radius: 8px;
-    margin: 10px;
-    font-family: monospace;
+.button {
+  background-color: #bb1597;
+  border: 2px solid #210425;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: blueviolet;
+  display: inline-block;
+  font-size: x-large;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: monospace;
 }

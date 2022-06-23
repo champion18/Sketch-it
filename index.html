@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Sketch it</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-    <title>
-        Sketch it
-    </title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <h1> Sketch it! </h1>
-    <div id="buttons">
-        <button class="button" onclick= "defaultColour()"> Default </button>
-        <button class="button" onclick= "randomColour()"> Surprise </button>
-        <button class="button" onclick= "eraseCellColour()"> Eraser </button>
-        <button class="button" onclick= "clearGrid()"> Clear </button>
-        <button class="button" id="new grid" onclick="makeNewGrid()"> New Grid </button>
+  <body>
+    <div class="main">
+      <div id="head">
+        <h1>Sketch it!</h1>
+        <h3>Hover over cells to colour them. Enjoy :)</h3>
+      </div>
+      <div id="paintarea">
+        <div id="buttons">
+          <button class="button" onclick="defaultColour()">Default</button>
+          <button class="button" onclick="randomColour()">Surprise</button>
+          <button class="button" onclick="eraseCellColour()">Eraser</button>
+          <button class="button" onclick="clearGrid()">Clear</button>
+          <button class="button" id="new grid" onclick="makeNewGrid()">
+            New Grid
+          </button>
+        </div>
+        <div id="container"></div>
+      </div>
     </div>
 
-    <div id="container"></div>
-
-    <script src="script.js">
-    </script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
